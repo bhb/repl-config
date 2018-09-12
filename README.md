@@ -4,13 +4,12 @@ A Clojure library designed to ... well, that part is up to you.
 
 ## Usage
 
-TODO - fix
+### Lein
 
-Add to profiles.clj
+[TODO] Add to profiles
+
+`lein with-profile +repl-config repl`
 
 ## License
 
-Copyright © 2018 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+[MIT](LICENSE)
