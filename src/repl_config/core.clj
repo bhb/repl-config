@@ -1,6 +1,8 @@
-(ns repl-config.core)
+(ns repl-config.core
+  [rebel-readline.clojure.main])
 
-(defn foo
-  "I don't do a whole lot."
-3  [x]
-  (println x "Hello, World!"))
+(defn clj
+  []
+  (println "Hello, World!")
+  (rebel-readline.clojure.main/repl)
+  )
